@@ -10,7 +10,7 @@ C:\Users\Griss>git clone https://github.com/griss-code/calculadora-equipo-3.git
 C:\Users\Griss>cd calculadora-equipo-3
 
 3. Se creo el archivo calculadora.py con el siguiente contenido, de manera que cada función se separó y el líder de equipo asignó su parte a cada integrante para evitar conflictos:
-# calculadora.py - Calculadora en línea de comandos
+calculadora.py - Calculadora en línea de comandos
 
 
 def obtener_numeros():
