@@ -2,19 +2,21 @@
 
 
 def obtener_numeros():
-    # TODO (Miembro 1)
-    pass
+    try:
+        a = float(input("Ingresa el primer número: "))
+        b = float(input("Ingresa el segundo número: "))
+        return a, b
+    except ValueError:
+        print("Error: Debes ingresar números válidos.")
+        exit()
 
 
 def suma(a, b):
-    # TODO (Miembro 1)
-    pass
+    return a + b
 
 
 def resta(a, b):
-    # TODO (Miembro 1)
-    pass
-
+    return a - b
 
 def multiplicacion(a, b):
     # TODO (Miembro 2)
