@@ -29,8 +29,8 @@ def division(a, b):
 
 
 def mostrar_resultados(operacion, resultado):
-    # TODO (Líder)
-    pass
+    print(f"\nOperación: {operacion}")
+    print(f"Resultado: {resultado}")
 
 
 def main():
@@ -44,7 +44,11 @@ def main():
     elif op == "*":
         r = multiplicacion(a, b)
     elif op == "/":
-        r = division(a, b)
+        try:
+            r = division(a, b)
+        except ZeroDivisionError as e:
+            print(f"Error: {e}")
+            return
     else:
         print("Operación no válida")
         return
